@@ -1,7 +1,7 @@
 """
 Attribution 4.0 International
 Copyright (c) 2025 wayne931121
-Source https://github.com/wayne931121/
+Source https://github.com/wayne931121/pyinstaller_license
 
 Usage:
 python license.py basePath targetPath
