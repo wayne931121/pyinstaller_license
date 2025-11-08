@@ -1,4 +1,4 @@
-"""
+r"""
 Attribution 4.0 International
 Copyright (c) 2025 wayne931121
 Source https://github.com/wayne931121/pyinstaller_license
@@ -15,11 +15,11 @@ import find, sys, os
 basePath = sys.argv[1]
 targetPath = sys.argv[2]
 
-def copy(basePath, targetPath, partten):
-    for i in find.find(partten,basePath,typeMode="file"):
+def copy(basePath, targetPath, pattern):
+    for i in find.find(pattern,basePath,typeMode="file"):
         newFile = i.replace("\\","-").replace("/","-").replace(":","-")+".txt"
         f  = open(os.path.join(targetPath,newFile),"wb")
-        r  = open(os.path.join(basePath,i),"rb")
+        r  = open(i,"rb")
         f.write(r.read())
         r.close()
         f.close()
