@@ -32,7 +32,7 @@ python license.py basePath targetPath
 python license.py "C:\Program Files\Python313" ".\0"
 ```
 
-# Example Output
+# Example
 We use wfind-find.exe for example.
 ## Files for find.exe
 https://github.com/wayne931121/python_find_file_name/tree/main/windows_exe
